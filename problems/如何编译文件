@@ -2,4 +2,4 @@
 
 生成总的项目
 
-生成libcaffe
+生成libcaffe,需要在CommonSettings.props文件中修改第48行，设置为你的python路径。
