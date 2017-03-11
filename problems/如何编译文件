@@ -1,6 +1,6 @@
 caffe学习(1):多平台下安装配置caffe
 https://zhuanlan.zhihu.com/p/22129880
-
+配置和测试数据集： http://www.cnblogs.com/beihaidao/p/5958322.html
 首先编译项目，需要把项目设置为 release x64
 
 生成总的项目
