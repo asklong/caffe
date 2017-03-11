@@ -2,9 +2,11 @@
 
 生成总的项目
 
-生成libcaffe,需要在CommonSettings.props文件中修改第48行，设置为你的python路径。
+生成libcaffe,需要在CommonSettings.props文件中修改第48行，设置为你的python路径。因为python使用了很多package，所以我使用了Miniconda2的python。如果你试用python27你需要额外安装一些package
 
 caffe学习(1):多平台下安装配置caffe
 https://zhuanlan.zhihu.com/p/22129880
 
 set the CommonSettings.props:
+we dont use GPU, so we set cpuonloybuild to true, we dont use cudnn, so set the option to false
+and we want to use python, so set PythonDir to you python folder, use Miniconda2.
