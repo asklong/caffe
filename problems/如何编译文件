@@ -16,3 +16,6 @@ https://zhuanlan.zhihu.com/p/22129880
 set the CommonSettings.props:
 we dont use GPU, so we set cpuonloybuild to true, we dont use cudnn, so set the option to false
 and we want to use python, so set PythonDir to you python folder, use Miniconda2.
+
+如何配置测试数据集
+http://www.cnblogs.com/beihaidao/p/5958322.html
