@@ -19,3 +19,7 @@ and we want to use python, so set PythonDir to you python folder, use Miniconda2
 
 如何配置测试数据集
 http://www.cnblogs.com/beihaidao/p/5958322.html
+如何使用数据集进行预测与测试：
+http://www.cnblogs.com/TensorSense/p/6260293.html
+训练mean值得时候：compute_image_mean.exe --backend=leveldb mnist-train-leveldb mean.binaryproto
+pause
