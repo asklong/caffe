@@ -24,3 +24,6 @@ http://www.cnblogs.com/TensorSense/p/6260293.html
 http://blog.csdn.net/zb1165048017/article/details/52217772
 训练mean值得时候：compute_image_mean.exe --backend=leveldb mnist-train-leveldb mean.binaryproto
 pause
+
+data数据集的转化，把图片数据转化为caffe专用的数据r
+http://www.itdadao.com/articles/c15a174512p0.html
