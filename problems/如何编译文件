@@ -11,8 +11,7 @@ https://zhuanlan.zhihu.com/p/22129880
 然后下载 mnist数据集进行训练和测试
 
 这里有试用MLP进行分类的：http://mxnet.io/tutorials/python/mnist.html#handwritten-digit-recognition
-
-
+如果计算means时出错必须在数据后面加上--backend=leveldb注明数据格式
 set the CommonSettings.props:
 we dont use GPU, so we set cpuonloybuild to true, we dont use cudnn, so set the option to false
 and we want to use python, so set PythonDir to you python folder, use Miniconda2.
