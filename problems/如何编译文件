@@ -26,6 +26,6 @@ pause
 
 data数据集的转化，把图片数据转化为caffe专用的数据r
 http://www.itdadao.com/articles/c15a174512p0.html
-训练时一律按照.bat形式来写：
+训练时一律按照.bat形式来写,不要写成.sh
 C:\Users\asklong\Desktop\mumcourses\machinelearning\project\caffe-master\Build\x64\Release\caffe.exe train --solver=C:/Users/asklong/Desktop/mumcourses/machinelearning/project/caffe-master/data/resimple/solver.prototxt
 pause
